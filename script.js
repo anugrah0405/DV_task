@@ -177,7 +177,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const playButton = document.querySelector(".play-button button")
     if (playButton) {
       playButton.addEventListener("click", () => {
-        // In a real implementation, this would open a video modal
         alert("Video player would open here!")
       })
     }
