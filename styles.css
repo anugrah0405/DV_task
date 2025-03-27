@@ -106,6 +106,20 @@ header {
   font-size: 2rem;
 }
 
+.stats-column {
+  position: relative;
+}
+
+.stats-column:not(:last-child)::after {
+  content: "•";
+  position: absolute;
+  right: -5px;
+  top: 35%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: var(--primary);
+}
+
 /* Build & Sell Sections */
 .build,
 .sell {
@@ -422,6 +436,25 @@ footer a:hover {
 
   .business-buttons .btn {
     margin-bottom: 10px;
+  }
+
+  .stats-column:not(:last-child)::after {
+    content: "•";
+    position: absolute;
+    right: 50%;
+    top: auto;
+    bottom: -15px;
+    transform: translateX(50%);
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+
+  .stats-column {
+    margin-bottom: 30px;
+  }
+
+  .stats-column:last-child {
+    margin-bottom: 0;
   }
 }
 
