@@ -1,6 +1,6 @@
 :root {
   --primary: #4361ee;
-  --info: #17a2b8;
+  --info: #15d7f5;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -156,7 +156,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: left;
-  color: #168ccf;
+  color: var(--primary);
 }
 
 /* Business Types Section */
