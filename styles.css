@@ -73,12 +73,19 @@ header {
   color: #ffc107;
 }
 
-.btnget {
-    background-color: rgb(253, 135, 1);
+.btn-warning {
+  background-color: rgb(253, 135, 1);
+  border-color: rgb(253, 135, 1);
 }
 
-.btnget:hover {
-    background-color: rgb(253, 135, 1);
+.btn-warning:hover {
+  background-color: rgb(237, 127, 0);
+  border-color: rgb(237, 127, 0);
+}
+
+.btn-warning:active {
+  background-color: rgb(253, 135, 1) !important;
+  border-color: rgb(253, 135, 1) !important;
 }
 
 .hero-img {
@@ -93,7 +100,11 @@ header {
 }
 
 .btn-outline-success:hover {
-  background-color: rgb(253, 135, 1);;
+  background-color: rgb(253, 135, 1);
+}
+
+.btn-outline-success:active {
+  background-color: rgb(253, 135, 1) !important;
 }
 
 /* Stats Section */
@@ -310,10 +321,16 @@ footer a:hover {
 
 .btn-danger {
   background-color: #ec4899;
+  border-color: #ec4899;
 }
 
 .btn-danger:hover {
-  background-color: #ec4899;
+  background-color: #e92d8b;
+  border-color: #e92d8b;
+}
+
+.btn-danger:active {
+  background-color: #ec4899 !important;
 }
 
 .business-buttons button {
